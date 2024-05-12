@@ -1,3 +1,33 @@
 Zero Trust Principle -->
 
 
+
+Note: 
+Abondonment of Traditional VPN Solutions with Software Defined Networks (SDNs)... Software Defined Perimeter (SDPs)
+
+Continuous Adaptive Risk & Trust Assessment (CARTA) from Gartner... now called Zero Trust Network Access (ZTNA)
+  Moving toward Attribite-based Access Control & Risk-based Attribute Control (Newer types of Access Control Mechanisms)
+  REMOVES (or Moving Away form) Discretionary Access Control, Role-based Access Control, or Rule-based Access Control
+  
+Abondonment of the traditional DMZ Zone, where the Corporate places their Public Facing Systems in the DMZ, this is going away...
+
+Zero Trust eXtended (ZTX) Ecosystem Report --> that effectivly EXTENDED the original Model beyond its Network focus to encompass modern ever-expanding ATTACK SURFACES
+
+********
+
+[CORE PRINCIPLES of ZERO TRUST]::
+
+YOU HAVE to KNOW WHAT YOU HAVE (before you can even get STARTED on a Zero Trust initiative)
+1. INVENTORY of YOUR SYSTEMS 
+   Know WHAT HARDWARE you HAVE (needs to be Classified, Prioritized and Labeled)
+   Know WHAT SOFTWARE you HAVE (needs to be Classified, Prioritized and Labeled)
+
+2.
+
+
+
+
+
+
+
+
