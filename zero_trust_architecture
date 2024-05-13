@@ -11,7 +11,13 @@ Continuous Adaptive Risk & Trust Assessment (CARTA) from Gartner... now called Z
   
 Abondonment of the traditional DMZ Zone, where the Corporate places their Public Facing Systems in the DMZ, this is going away...
 
-Zero Trust eXtended (ZTX) Ecosystem Report --> that effectivly EXTENDED the original Model beyond its Network focus to encompass modern ever-expanding ATTACK SURFACES
+Zero Trust eXtended (ZTX) Ecosystem Report --> that effectivly EXTENDED the original Model beyond its Network focus to encompass modern 
+  (from Forrester)                             ever-expanding ATTACK SURFACES 
+                                               note: it provides a more Robust & well-rounded Model driven by the explosion of Data in both
+                                                     On-Premises and Cloud Environments
+                                               This Report from Forrester costs $1,500 to get.
+
+CIS Top 18 is a Good Framework to use for Zero Trust. :) :) :)
 
 ********
 
@@ -22,7 +28,107 @@ YOU HAVE to KNOW WHAT YOU HAVE (before you can even get STARTED on a Zero Trust 
    Know WHAT HARDWARE you HAVE (needs to be Classified, Prioritized and Labeled)
    Know WHAT SOFTWARE you HAVE (needs to be Classified, Prioritized and Labeled)
 
-2.
+2. Then a GAP Analysis should be Conducted... (which ZT items are in place, which are lacking)
+
+3. Quantatative RISK Analysis of What we Need to reach our GOALS
+
+4. Do an Assessment on ALL your Physical Resources & Logical Resources (aka Cloud / Virtualized Resources)
+
+5. Embrace the Least Privilege Principle consistently across ALL Resources Classes and Locations
+   note: Only Authorized SUBJECTS should have the Permissions to Connect to a Service at the Network Layer and HIGHER
+
+6. Implement HIGH VISIBILITY SOLUTIONS to generate meaningful Metrics & Reports (via SIEM & SOAR Systems On-Premises and/or with the Cloud)
+
+7. Use SSO (a time-based Token Session) and Federation 
+
+8. Assume that BREACHES & INCIDENTS are going to occur
+
+******************************************
+
+An Expanded Definition of ZERO TRUST -->
+
+A Zero Trust System is an integrated Security Platrom that uses Contextual Information from Identity, Security, IT Infrastructure, and Analytics Tools to inform and enable the dynamic enforcement of Security Policies uniformly across the Enterprise. (Note: where Contextual means Attribute-based Access Control... What is the Context of the SUBJECT, & understanding what is the Posture of the RESOURCE OBJECT being Accessed)
+
+Zero Trust shifts SECURITY from an ineffective PERIMETER-CENTRIC Model to a RESOURCE and IDENTITY-CENTRIC MODEL. (aka IDENTITY is the PERIMETER)
+
+As a result, Organizations can CONTINUOUSLY adapt Access Controls to a changing environment, obtaining Improved Security, Reduced Risk, Simplified & Resilient Operations, and Increased Business Agility.
+
+********
+
+Does Zero Trust allow BYOD? Yes, but it must use MDM
+
+********
+ 
+7 TENANTS of ZERO TRUST (according to NIST SP 800-207)
+
+1. Rigorously Enforce Authenticaiton & Authorization
+2. Maintain DATA INTEGRITY
+3. Gather DATA for IMPROVED SECURITY (aka Visibility, Meaningful Data/Metrics via SIEM/SOAR)
+4. Consider EVERY Data Source and Computing Device as a Resource
+5. Keep ALL Communication SECURED regardless of Network Location
+6. Grant Resource Access on a Per-Session basis (Ex: time-based digitally signed token, etc...)
+7. Moderate Access with a Dynamic Policy 
+
+**************
+
+The CSA Treacherous 12 and SDP (Software Defined Perimeter)
+
+1. Data Breaches
+2. Weak Identity, Credential and Access Management
+3. Insecure Interfaces and APIs
+4. System and Application Vulnerabilities
+5. Account Hijacking
+6. Malicious Insiders
+7. Advanced Persistent Threats (APTs)
+8. Data Loss
+9. Insufficient Due Diligence *
+10. Abuse & Nefarious Use of Cloud Services *
+11. Denial of Service
+12. Shared Technolgoy Isses
+
+* SDP does not directly apply
+
+**********************************
+
+[Gap Analysis of Technologies to Move Away From / Technologies to Implement] -->
+
+The Instructor went over a bunch of Network Technologies here...
+
+
+***********
+
+Many Startups / Mid-Sized Companies use::
+
+1. DirectConnect to AWS over a FiberLink to Connect to the Cloud
+(who don't want Domain Controllers)
+
+2. IDaaS
+
+
+********
+
+IoT Generator
+
+*******
+
+TRADITIONAL DEFENSE in DEPTH -->
+
+PERIMETER SECURITY
+NETWORK SECURITY
+ENDPOINT SECURITY
+APPLICATION SECURITY
+DATA SECURITY
+OPERATIONS (Monitoring & Response)
+POLICY MANAGEMENT (Prevention)
+Mission-Critical ASSETS
+
+*********
+Recap:: get rid of VPN Access and get rid of traditional DMZ
+
+
+******************
+ZT is Policy driven!!!
+
 
 
 
